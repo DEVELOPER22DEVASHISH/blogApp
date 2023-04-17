@@ -1,5 +1,6 @@
 const userModel = require('../models/userModel');
 const bcrypt = require('bcrypt');
+const BASE_URL = process.env.BASE_URL
 
 // create register user
 exports.registerController = async (req, res) => {
